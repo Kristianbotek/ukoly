@@ -1,0 +1,175 @@
+/* https://coolors.co/985f99-f3e0ec-ead5e6-283d3b-197278 */
+* {
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+
+body {
+    margin: 0;
+    background-color: hsl(322, 44%, 92%);
+    font-family: comfortaa;
+
+}
+
+nav {
+    background-color: hsl(299, 23%, 49%);
+    padding: 0.9vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 1vw;
+}
+
+nav h2 {
+    font-size: 1.4em;
+    color: hsl(322, 44%, 92%);
+}
+
+nav h2:hover {
+    transform: scale(1.2);
+    color: hsl(0, 0%, 100%);
+}
+
+nav a {
+    margin-right: 3vw;
+}
+
+#mainText {
+    text-align: center;
+
+    font-size: 3.2em;
+    color: hsl(174, 21%, 20%);
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    margin-top: 8vh;
+
+    justify-content: space-evenly;
+}
+
+
+#img1 {
+    height: 45vh;
+    border-radius: 5vh;
+    border: 4px solid hsl(299, 23%, 49%);
+}
+
+#img2 {
+    height: 45vh;
+    border-radius: 5vh;
+    border: 4px solid hsl(299, 23%, 49%);
+}
+.imageCon:hover{
+    transform: scale(1.2);
+}
+.imageCon {
+    text-align: center;
+}
+
+.caption {
+    display: block;
+    margin-top: 2vh;
+    font-size: 2.2em;
+    color: hsl(174, 21%, 20%);
+}
+
+#smallText {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+
+    font-size: 2em;
+    color: hsl(299, 23%, 35%);
+}
+
+#smallText a {
+    color: inherit;
+}
+
+#smallText a:hover {
+    transform: scale(1.1);
+    color: black;
+}
+
+.infoText {
+    display: flex;
+    justify-content: space-evenly;
+
+    list-style-type: none;
+    margin-top: 5em;
+}
+
+.infoContent {
+    border: 3px solid hsl(299, 23%, 49%);
+    border-radius: 2.5em;
+    background-color: hsl(322, 44%, 80%);
+
+    padding: 1.2em;
+}
+
+.infoText h1 {
+    color: hsl(174, 21%, 20%);
+    font-size: 4.2em;
+    margin-bottom: 0.42em;
+    margin-top: 0.2em;
+}
+
+.infoText li {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.infoText li:hover {
+    transform: scale(1.1);
+}
+
+.right::before {
+    content: "✅"
+}
+
+.wrong::before {
+    content: "❌"
+}
+
+.moreInfo {
+    text-align: center;
+    margin-top: 15em;
+    margin-bottom: 2em;
+}
+
+.moreInfo h2 {
+    font-size: 3em;
+}
+.moreInfo img {
+    border-radius: 7vh;
+    height: 65vh;
+    border: 5px solid hsl(299, 23%, 49%);
+}
+
+.moreInfo p {
+    font-size: 2.5em;
+}
+
+.moreInfo ul {
+    font-size: 3.5em;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+
+.moreInfo li {
+    font-size: 2em;
+
+}
+
+.anotherList {
+    display: inline-block;
+    padding: 2em;
+
+    border: 3px solid hsl(299, 23%, 49%);
+    border-radius: 2.5em;
+    background: linear-gradient(to bottom, hsl(322, 44%, 80%), hsl(322, 44%, 90%));
+}
