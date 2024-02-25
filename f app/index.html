@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finanční aplikace</title>
+</head>
+
+<body>
+    <h2>Převodník měn</h2>
+    <div>
+        <label for="sourceCurrency">Zdrojová měna:</label>
+        <select id="sourceCurrency">
+            <option value="CZK">CZK</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+        </select>
+    </div>
+    <div>
+        <label for="targetCurrency">Cílová měna:</label>
+        <select id="targetCurrency">
+            <option value="CZK">CZK</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+        </select>
+    </div>
+    <div>
+        <label for="amount">Částka:</label>
+        <input type="number" id="amount">
+    </div>
+    <button onclick="convertCurrency()">Převest</button>
+    <div id="conversionResult"></div>
+
+    <h2>Kalkulačka spoření/investic</h2>
+    <div>
+        <label for="initialAmount">Počáteční částka:</label>
+        <input type="number" id="initialAmount">
+    </div>
+    <div>
+        <label for="monthlyDeposit">Měsíční vklad:</label>
+        <input type="number" id="monthlyDeposit">
+    </div>
+    <div>
+        <label for="interestRate">Roční úroková sazba (%):</label>
+        <input type="number" id="interestRate">
+    </div>
+    <div>
+        <label for="investmentDuration">Doba trvání (v letech):</label>
+        <input type="number" id="investmentDuration">
+    </div>
+    <button onclick="calculateFutureValue()">Spočítat</button>
+    <div id="futureValueResult"></div>
+
+    <h2>Výpočet DPH</h2>
+    <div>
+        <label for="vatAmount">Částka s DPH:</label>
+        <input type="number" id="vatAmount">
+    </div>
+    <button onclick="calculateVat()">Vypočítat částku bez DPH</button>
+    <div id="vatResult"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<script src="script.js"></script>
+</body>
+
+</html>
