@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+<h1>Generátor hesla</h1>
+
+    <div class="gen">
+        <div class="velky">
+            <label for="velky">Velké písmena:</label>
+            <input type="checkbox" id="velky">
+        </div>
+        <div class="cisla">
+            <label for="cisla">Čísla:</label>
+            <input type="checkbox" id="cisla">
+        </div>
+        <div class="znaky">
+            <label for="znaky">Speciální znaky:</label>
+            <input type="checkbox" id="znaky">
+        </div>
+        <div class="delka">
+            <label for="delka">Délka hesla:</label>
+            <input type="number" id="delka">
+        </div>
+    </div>
+    <div class="button">
+        <button onclick="generatePasswordOnClick()">Generovat</button>
+    </div>
+    <div class="output">
+        <h4 id="output"></h4>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
