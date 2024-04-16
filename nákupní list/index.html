@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nákupní seznam</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Nákupní seznam</h1>
+    <div class="inputs">
+        <div class="list1">
+            <label for="list1">Seznam 1</label>
+            <textarea id="list1" placeholder="mrkev, mandle, maso..."></textarea>
+            <button onclick="addItem('list1')">Přidat</button> 
+        </div>
+        <div class="list2">
+            <label for="list2">Seznam 2</label>
+            <textarea id="list2" placeholder="brambory, kešu, ovoce..."></textarea>
+            <button onclick="addItem('list2')">Přidat</button>
+        </div>
+    </div>
+    <div class="vysledky">
+        <div class="vys1">
+            <ul id="shopping-list1"></ul>
+        </div>
+        <div class="vys2">
+            <ul id="shopping-list2"></ul>
+        </div>
+    </div>    
+
+    <script src="script.js"></script>
+</body>
+</html>
