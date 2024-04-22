@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Kartičky pro procvičování slovíček</h1>
+    <div class="form">
+    <form id="add-card-form">
+        <input type="text" id="english-input" placeholder="Anglické slovo" required>
+        <input type="text" id="czech-input" placeholder="Český překlad" required>
+        <input type="text" id="explanation-input" placeholder="Vysvětlení" required>
+        <button type="submit">Přidat</button>
+    </form>
+    </div>
+    <div id="card-container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
