@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generátor náhodných barev</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Generátor náhodných barev</h1>
+    <div id="color-container">
+        <div id="color-display"></div>
+        <button id="generate-button">Generovat barvu</button>
+        <input type="text" id="color-code" readonly>
+        <button id="save-button">Uložit barvu</button>
+    </div>
+    <h2>Oblíbené barvy</h2>
+    <ul id="favorite-colors"></ul>
+
+    <h2>Přihlášení</h2>
+    <form id="login-form">
+        <input type="text" id="username" placeholder="Uživatelské jméno" required>
+        <input type="password" id="password" placeholder="Heslo" required>
+        <button type="submit">Přihlásit se</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

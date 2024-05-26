@@ -1,0 +1,28 @@
+*{
+    font-family: comfortaa;
+}
+#color-container {
+    margin-bottom: 20px;
+}
+
+#color-display {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+#color-code {
+    margin-bottom: 10px;
+}
+
+#favorite-colors li {
+    margin-bottom: 5px;
+}
+
+.error {
+    color: red;
+}
+
+#login-form {
+    margin-bottom: 20px;
+}
