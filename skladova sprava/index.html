@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Skladové zásoby</h1>
+
+    <h2>Seznam produktů</h2>
+    <table id="produktyTable">
+        <tr>
+            <th>Název</th>
+            <th>Cena za kus</th>
+            <th>Počet kusů na skladě</th>
+        </tr>
+    </table>
+
+    <h2>Nejdražší produkt</h2>
+    <p id="nejdrazsiProdukt"></p>
+
+    <h2>Filtrování produktů</h2>
+    <label for="mnozstvi">Zobrazit produkty s méně než:</label>
+    <input type="number" id="mnozstvi" min="0">
+    <button onclick="filtrujProdukty()">Filtrovat</button>
+    <table id="filtrovaneProduktyTable">
+        <tr>
+            <th>Název</th>
+            <th>Cena za kus</th>
+            <th>Počet kusů na skladě</th>
+        </tr>
+    </table>
+
+    <h2>Celková hodnota zásob</h2>
+    <p id="celkovaHodnota"></p>
+
+    <h2>Aktualizace počtu produktů</h2>
+    <label for="nazevProduktu">Název produktu:</label>
+    <input type="text" id="nazevProduktu">
+    <label for="novyPocet">Nový počet kusů:</label>
+    <input type="number" id="novyPocet" min="0">
+    <button onclick="aktualizujPocet()">Aktualizovat</button>
+</body>
+
+</html>
