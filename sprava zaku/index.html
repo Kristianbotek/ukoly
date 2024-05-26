@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Správa žáků</h1>
+
+    <form id="studentForm">
+        <label for="name">Jméno:</label>
+        <input type="text" id="name" required>
+        <br>
+        <label for="age">Věk:</label>
+        <input type="number" id="age" required>
+        <br>
+        <button type="submit">Přidat žáka</button>
+    </form>
+
+    <h2>Seznam žáků:</h2>
+    <ul id="studentList"></ul>
+
+    <button id="deleteButton">Vymazat žáky</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
