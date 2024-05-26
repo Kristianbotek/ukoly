@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sledování času na sociálních sítích</h1>
+
+    <div id="clock">
+        <h2>Aktuální čas</h2>
+        <p id="current-time"></p>
+    </div>
+
+    <div id="timer">
+        <h2>Časovač</h2>
+        <input type="number" id="timer-input" placeholder="Zadejte čas v minutách">
+        <button id="start-timer">Spustit časovač</button>
+        <p id="timer-message"></p>
+    </div>
+
+    <div id="stopwatch">
+        <h2>Stopky</h2>
+        <button id="start-stopwatch">Spustit stopky</button>
+        <button id="stop-stopwatch">Zastavit stopky</button>
+        <p id="stopwatch-time"></p>
+        <button id="save-time">Uložit čas</button>
+        <ul id="time-history"></ul>
+    </div>
+
+    <div id="daily-limit">
+        <h2>Nastavitelný limit</h2>
+        <input type="number" id="limit-input" placeholder="Zadejte denní limit v minutách">
+        <button id="set-limit">Nastavit limit</button>
+        <p id="limit-message"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
