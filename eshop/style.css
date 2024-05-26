@@ -1,0 +1,57 @@
+body {
+    padding-top: 60px;
+    font-family: sans-serif;
+
+    margin: 0;
+}
+
+.navbar {
+    background-color: #848586;
+
+    margin: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #777;
+}
+
+.footer {
+    margin-top: 20px;
+    background-color: #58595a;
+    text-align: center;
+    padding: 10px 0;
+
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.footer .text-muted {
+    color: #777;
+}
