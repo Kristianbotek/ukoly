@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Úkoly</h1>
+    
+    <h2>LEVEL 1</h2>
+    
+    <h3>Úkol 1: Switch Statement</h3>
+    <label for="month">Zadejte číslo měsíce (1-12):</label>
+    <input type="number" id="month" min="1" max="12">
+    <button onclick="getMonthName()">Zobrazit název měsíce</button>
+    <p id="monthName"></p>
+    
+    <h3>Úkol 2: While Loop</h3>
+    <button onclick="printEvenNumbers()">Vypsat sudá čísla</button>
+    <p id="evenNumbers"></p>
+    
+    <h3>Úkol 3: Do-While Loop</h3>
+    <label for="password">Zadejte heslo:</label>
+    <input type="password" id="password">
+    <button onclick="checkPassword()">Ověřit heslo</button>
+    
+    <h2>LEVEL 2</h2>
+    
+    <h3>Úkol 4: Switch Statement</h3>
+    <label for="day">Zadejte číslo dne v týdnu (1-7):</label>
+    <input type="number" id="day" min="1" max="7">
+    <button onclick="getDayOfWeek()">Zobrazit den v týdnu</button>
+    <p id="dayOfWeek"></p>
+    
+    <h3>Úkol 5: While Loop</h3>
+    <button onclick="calculateFibonacci()">Vypočítat Fibonacciho posloupnost</button>
+    <p id="fibonacciSequence"></p>
+    
+    <h3>Úkol 6: Do-While Loop</h3>
+    <label for="number">Zadejte číslo (0 pro ukončení):</label>
+    <input type="number" id="number">
+    <button onclick="calculateSum()">Vypočítat součet</button>
+    <p id="sum"></p>
+    
+    <script src="script.js"></script>
+</body>
+</html>
