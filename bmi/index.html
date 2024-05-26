@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #result {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Výpočet BMI</h1>
+
+    <form>
+        <label for="weight">Hmotnost (kg):</label>
+        <input type="number" id="weight" required>
+
+        <label for="height">Výška (m):</label>
+        <input type="number" id="height" required>
+
+        <button type="button" onclick="processInput()">Vypočítat BMI</button>
+    </form>
+
+    <div id="result"></div>
+
+    <h2>Ukončení programu</h2>
+
+    <p>Zadejte "NE", "EXIT" nebo "KONEC" do pole níže a stiskněte tlačítko pro ukončení programu.</p>
+
+    <input type="text" id="input">
+    <button type="button" onclick="processInputWithExitCheck()">Ukončit program</button>
+    <script src="script.js"></script>
+</body>
+</html>
