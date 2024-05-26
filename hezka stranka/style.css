@@ -1,0 +1,24 @@
+*{
+    transition: 0.2s ease-in-out;
+}
+body {
+    background: linear-gradient(190deg,#BCEBCB, #07c443);
+    overflow: hidden;
+}
+nav {
+    background: linear-gradient(200deg, #66ad7c, #0ba03a);
+}
+p {
+    font-size: 1.4em;
+}
+.container h2 {
+    font-family: Comfortaa;
+    font-size: 2.3em;
+}
+.container h2:hover {
+    transform: scale(1.1);
+}
+
+p:hover {
+    color: hsl(0, 0%, 50%);
+}
