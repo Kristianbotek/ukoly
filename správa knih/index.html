@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <input id="nazev" placeholder="název">
+    <input id="autor" placeholder="autor">
+    <input id="zanr" placeholder="žánr">
+    <input id="rok" placeholder="rok">
+    <button onclick="pridat()">pridat knihu</button>
+    <button onclick="smazat()">zmazat nějakou knihu</button>
+
+    <h2>Hledat knihu</h2>
+    <input id="hledat">
+    <h3>search by:</h3>
+        <label for="najitNazev">název</label>
+        <input type="radio" name="nazv" id="najitNazev">
+        <label for="najitAutora">autor</label>
+        <input type="radio" name="nazv" id="najitAutora">
+        <label for="najitZanr">žánr</label>
+        <input type="radio" name="nazv" id="najitZanr">
+        <label for="najitRok">rok</label>
+        <input type="radio" name="nazv" id="najitRok">
+    <button onclick="hledat()">hledat</button>
+    <h1 id="vysledek"></h1>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
