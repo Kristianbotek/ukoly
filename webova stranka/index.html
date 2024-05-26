@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skateboard</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+    <div class="udaje"> 
+        <div id="registration">
+            <h2>Registrace</h2>
+            <input type="text" id="reg-username" placeholder="Uživatelské jméno">
+            <input type="password" id="reg-password" placeholder="Heslo">
+            <button onclick="register()">Registrovat</button>
+        </div>
+
+        <div id="login">
+        
+            <h2>Přihlášení</h2>
+            <input type="text" id="login-username" placeholder="Uživatelské jméno">
+            <input type="password" id="login-password" placeholder="Heslo">
+            <button onclick="login()">Přihlásit se</button>
+        </div>
+    </div>
+        <a href="index.html">
+            <h2>Skateboardy</h2>
+        </a>
+        <a href="info.html">
+            <h2>Informace</h2>
+        </a>
+        <a href="https://craness.cz/">
+            <h2>Partneři</h2>
+        </a>
+    </nav>
+
+    <main>
+        <h1 id="mainText">Typy skatebordů</h1>
+        <div class="mainContent">
+            <div class="images">
+                <div class="imageCon">
+                    <a href="https://cs.wikipedia.org/wiki/Skateboard"><img src="skate.jpg" id="img1"
+                            alt="basic-skate"></a>
+                    <span class="caption">Skateboard</span>
+                </div>
+                <div class="imageCon">
+                    <a href="https://cs.wikipedia.org/wiki/Longboard"><img src="long.jpg" id="img2" alt="longboard"></a>
+                    <span class="caption">Longboard</span>
+                </div>
+            </div>
+        </div>
+        <p id="smallText"><a href="info.html">Více informací zde!</a></p>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
