@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rezervace do restaurace Bezděk</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Online rezervace do Restaurace Bezděk</h1>
+
+    <div id="login-container">
+        <h2>Přihlášení</h2>
+        <input type="text" id="username" placeholder="Uživatelské jméno">
+        <input type="password" id="password" placeholder="Heslo">
+        <button onclick="login()">Přihlásit se</button>
+    </div>
+
+    <div id="reservation-container" style="display: none;">
+        <h2>Vytvořit rezervaci</h2>
+        <input type="text" id="time" placeholder="Čas">
+        <input type="number" id="guests" placeholder="Počet osob">
+        <button onclick="createReservation()">Vytvořit rezervaci</button>
+    </div>
+
+    <div id="calendar"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
